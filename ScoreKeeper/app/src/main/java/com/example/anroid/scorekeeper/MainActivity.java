@@ -49,82 +49,17 @@ public class MainActivity extends AppCompatActivity {
         spinner0.setOnItemSelectedListener(new OnItemSelectedListener() {
             //spinner.
             @Override
-            public void onItemSelected(AdapterView<?> arg0, View arg1,
-                                       int arg2, long arg3) {
-                if(arg2 == 0)
-                {
+            public void onItemSelected(AdapterView<?> arg0, View arg1, int arg2, long arg3)
+            {
 
-                    imageview.setImageResource(R.drawable.afghanistan);
-                }
-                else if(arg2 == 1)
-                {
-                    imageview.setImageResource(R.drawable.albania);
-                }
-                else if(arg2 == 2)
-                {
-                    imageview.setImageResource(R.drawable.algeria);
-                }
-                else if(arg2 == 3)
-                {
-                    imageview.setImageResource(R.drawable.andorra);
-                }
-                else if(arg2 == 4)
-                {
-                    imageview.setImageResource(R.drawable.angola);
-                }
-                else if(arg2 == 5)
-                {
-                    imageview.setImageResource(R.drawable.antiguaandbarbuda);
-                }
-                else if(arg2 == 6)
-                {
-                    imageview.setImageResource(R.drawable.argentina);
-                }
-                else if(arg2 == 7)
-                {
-                    imageview.setImageResource(R.drawable.armenia);
-                }
-                else if(arg2 == 8)
-                {
-                    imageview.setImageResource(R.drawable.australia);
-                }
-                else if(arg2 == 9)
-                {
-                    imageview.setImageResource(R.drawable.austria);
-                }
-                else if(arg2 == 10)
-                {
-                    imageview.setImageResource(R.drawable.azerbaijan);
-                }
-                else if(arg2 == 11)
-                {
-                    imageview.setImageResource(R.drawable.botswana);
-                }
-                else if(arg2 == 12)
-                {
-                    imageview.setImageResource(R.drawable.botswana);
-                }
-                else if(arg2 == 13)
-                {
-                    imageview.setImageResource(R.drawable.botswana);
-                }
-                else if(arg2 == 14)
-                {
-                    imageview.setImageResource(R.drawable.namibia);
-                }
-                else if(arg2 == 15)
+                if(arg2 == 0)
                 {
                     imageview.setImageResource(R.drawable.southafrica);
                 }
-                else if(arg2 == 16)
+                else if(arg2 == 1)
                 {
                     imageview.setImageResource(R.drawable.zambia);
                 }
-                else if(arg2 == 17)
-                {
-                    imageview.setImageResource(R.drawable.zimbabwe);
-                }
-
 
             }
 
@@ -143,40 +78,19 @@ public class MainActivity extends AppCompatActivity {
         spinner00.setOnItemSelectedListener(new OnItemSelectedListener() {
             //spinner.
             @Override
-            public void onItemSelected(AdapterView<?> arg0, View arg1,
-                                       int arg2, long arg3) {
-                if(arg2 == 0)
-                {
+            public void onItemSelected(AdapterView<?> arg0, View arg1, int arg2, long arg3)
+            {
 
-                    imageview0.setImageResource(R.drawable.angola);
-                }
-                else if(arg2 == 1)
-                {
-                    imageview0.setImageResource(R.drawable.botswana);
-                }
-                else if(arg2 == 2)
-                {
-                    imageview0.setImageResource(R.drawable.namibia);
-                }
-                else if(arg2 == 3)
+                if(arg2 == 0)
                 {
                     imageview0.setImageResource(R.drawable.southafrica);
                 }
-                else if(arg2 == 4)
+                else if(arg2 == 1)
                 {
                     imageview0.setImageResource(R.drawable.zambia);
                 }
-                else if(arg2 == 5)
-                {
-                    imageview0.setImageResource(R.drawable.zimbabwe);
-                }
-
 
             }
-
-
-
-
 
             @Override
             public void onNothingSelected(AdapterView<?> arg0) {

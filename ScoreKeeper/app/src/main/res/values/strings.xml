@@ -4,21 +4,7 @@
     <string name="choose_image">Choose Your Team</string>
 
     <string-array name="color">
-        <item> Afghanistan </item>
-        <item> Albania </item>
-        <item> Algeria </item>
-        <item> Andorra </item>
-        <item> Angola </item>
-        <item> Antigua And Barbuda </item>
-        <item> Argentina </item>
-        <item> Armenia </item>
-        <item> Australia </item>
-        <item> Austria </item>
-        <item> Azerbaijan </item>
-        <item> Botswana </item>
-        <item> Namibia </item>
         <item> South Africa </item>
         <item> Zambia </item>
-        <item> Zimbabwe </item>
     </string-array>
 </resources>
